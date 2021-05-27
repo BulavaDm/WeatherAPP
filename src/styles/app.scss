@@ -1,0 +1,32 @@
+@import "./reset.scss";
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    color: #FFF;
+    font-family: 'Didact Gothic';
+}
+
+div {
+    line-height: 100%;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+@keyframes location-hover {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
