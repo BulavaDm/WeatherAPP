@@ -32,9 +32,16 @@ export default {
 
 <style scoped lang="scss">
     .location {
+        height: 100%;
+
         &__content {
             width: 100%;
+            height: 100%;
             min-height: 100vh;
+            min-height: -webkit-fill-available;
+            min-height: -webkit-stretch;
+            min-height: -moz-available;
+            min-height: stretch;
             display: flex;
             justify-content: center;
             padding: 4%;
